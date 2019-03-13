@@ -1849,6 +1849,9 @@ tokenDefinition_t* getKnownToken() {
         case CHAIN_KIND_TOMOCHAIN:
             numTokens = NUM_TOKENS_TOMOCHAIN;
             break;
+        case CHAIN_KIND_DEXON:
+          numTokens = NUM_TOKENS_DEXON;
+          break;
     }
     for (i=0; i<numTokens; i++) {
         switch(chainConfig->kind) {
@@ -1917,6 +1920,9 @@ tokenDefinition_t* getKnownToken() {
                 break;
             case CHAIN_KIND_TOMOCHAIN:
                 currentToken = (tokenDefinition_t *)PIC(&TOKENS_TOMOCHAIN[i]);
+                break;
+            case CHAIN_KIND_DEXON:
+                currentToken = (tokenDefinition_t *)PIC(&TOKENS_DEXON[i]);
                 break;
         }
         if (os_memcmp(currentToken->address, tmpContent.txContent.destination, 20) == 0) {
