@@ -143,12 +143,6 @@ Discarded input sections
                 0x00000000      0x4e2 obj/glyphs.o
  .rodata.C_blue_badge_callisto
                 0x00000000       0x14 obj/glyphs.o
- .rodata.C_blue_badge_dexon_colors
-                0x00000000       0x20 obj/glyphs.o
- .rodata.C_blue_badge_dexon_bitmap
-                0x00000000      0x342 obj/glyphs.o
- .rodata.C_blue_badge_dexon
-                0x00000000       0x14 obj/glyphs.o
  .rodata.C_blue_badge_ellaism_colors
                 0x00000000       0x40 obj/glyphs.o
  .rodata.C_blue_badge_ellaism_bitmap
@@ -3152,7 +3146,7 @@ DEBUG           0xd0000000        0x8
  *(.debug_aranges)
 
 .debug_pubnames
-                0x00000000     0x42fa
+                0x00000000     0x42a7
  *(.debug_pubnames)
  .debug_pubnames
                 0x00000000      0x265 obj/cx_compliance_141.o
@@ -3161,71 +3155,71 @@ DEBUG           0xd0000000        0x8
  .debug_pubnames
                 0x0000034a       0xb2 obj/ethUtils.o
  .debug_pubnames
-                0x000003fc     0x1481 obj/glyphs.o
+                0x000003fc     0x142e obj/glyphs.o
  .debug_pubnames
-                0x0000187d      0x72d obj/main.o
+                0x0000182a      0x72d obj/main.o
  .debug_pubnames
-                0x00001faa      0x1d3 obj/os.o
+                0x00001f57      0x1d3 obj/os.o
  .debug_pubnames
-                0x0000217d      0x6b2 obj/os_io_seproxyhal.o
+                0x0000212a      0x6b2 obj/os_io_seproxyhal.o
  .debug_pubnames
-                0x0000282f       0x3b obj/os_printf.o
+                0x000027dc       0x3b obj/os_printf.o
  .debug_pubnames
-                0x0000286a       0x1a obj/pic.o
+                0x00002817       0x1a obj/pic.o
  .debug_pubnames
-                0x00002884       0x23 obj/pic_internal.o
+                0x00002831       0x23 obj/pic_internal.o
  .debug_pubnames
-                0x000028a7      0xa11 obj/syscalls.o
+                0x00002854      0xa11 obj/syscalls.o
  .debug_pubnames
-                0x000032b8      0x1bc obj/tokens.o
+                0x00003265      0x1bc obj/tokens.o
  .debug_pubnames
-                0x00003474      0x178 obj/u2f_impl.o
+                0x00003421      0x178 obj/u2f_impl.o
  .debug_pubnames
-                0x000035ec       0x22 obj/u2f_io.o
+                0x00003599       0x22 obj/u2f_io.o
  .debug_pubnames
-                0x0000360e      0x17b obj/u2f_transport.o
+                0x000035bb      0x17b obj/u2f_transport.o
  .debug_pubnames
-                0x00003789      0x1d5 obj/uint256.o
+                0x00003736      0x1d5 obj/uint256.o
  .debug_pubnames
-                0x0000395e      0x142 obj/usbd_conf.o
+                0x0000390b      0x142 obj/usbd_conf.o
  .debug_pubnames
-                0x00003aa0      0x1f0 obj/usbd_core.o
+                0x00003a4d      0x1f0 obj/usbd_core.o
  .debug_pubnames
-                0x00003c90      0x14f obj/usbd_ctlreq.o
+                0x00003c3d      0x14f obj/usbd_ctlreq.o
  .debug_pubnames
-                0x00003ddf       0x4b obj/usbd_hid.o
+                0x00003d8c       0x4b obj/usbd_hid.o
  .debug_pubnames
-                0x00003e2a      0x3cd obj/usbd_impl.o
+                0x00003dd7      0x3cd obj/usbd_impl.o
  .debug_pubnames
-                0x000041f7       0xa2 obj/usbd_ioreq.o
+                0x000041a4       0xa2 obj/usbd_ioreq.o
  .debug_pubnames
-                0x00004299       0x61 obj/utils.o
+                0x00004246       0x61 obj/utils.o
 
-.debug_info     0x00000000    0x12d62
+.debug_info     0x00000000    0x12d10
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000     0x107d obj/cx_compliance_141.o
  .debug_info    0x0000107d      0x8da obj/ethUstream.o
  .debug_info    0x00001957      0x607 obj/ethUtils.o
- .debug_info    0x00001f5e      0xef1 obj/glyphs.o
- .debug_info    0x00002e4f     0x29e6 obj/main.o
- .debug_info    0x00005835      0x74c obj/os.o
- .debug_info    0x00005f81     0x1c04 obj/os_io_seproxyhal.o
- .debug_info    0x00007b85      0x20a obj/os_printf.o
- .debug_info    0x00007d8f       0x55 obj/pic.o
- .debug_info    0x00007de4       0x45 obj/pic_internal.o
- .debug_info    0x00007e29     0x47fc obj/syscalls.o
- .debug_info    0x0000c625      0x283 obj/tokens.o
- .debug_info    0x0000c8a8      0x782 obj/u2f_impl.o
- .debug_info    0x0000d02a       0xb9 obj/u2f_io.o
- .debug_info    0x0000d0e3      0x79c obj/u2f_transport.o
- .debug_info    0x0000d87f     0x1843 obj/uint256.o
- .debug_info    0x0000f0c2      0x96e obj/usbd_conf.o
- .debug_info    0x0000fa30      0xb02 obj/usbd_core.o
- .debug_info    0x00010532      0xab9 obj/usbd_ctlreq.o
- .debug_info    0x00010feb      0x685 obj/usbd_hid.o
- .debug_info    0x00011670      0xce1 obj/usbd_impl.o
- .debug_info    0x00012351      0x723 obj/usbd_ioreq.o
- .debug_info    0x00012a74      0x2ee obj/utils.o
+ .debug_info    0x00001f5e      0xe9f obj/glyphs.o
+ .debug_info    0x00002dfd     0x29e6 obj/main.o
+ .debug_info    0x000057e3      0x74c obj/os.o
+ .debug_info    0x00005f2f     0x1c04 obj/os_io_seproxyhal.o
+ .debug_info    0x00007b33      0x20a obj/os_printf.o
+ .debug_info    0x00007d3d       0x55 obj/pic.o
+ .debug_info    0x00007d92       0x45 obj/pic_internal.o
+ .debug_info    0x00007dd7     0x47fc obj/syscalls.o
+ .debug_info    0x0000c5d3      0x283 obj/tokens.o
+ .debug_info    0x0000c856      0x782 obj/u2f_impl.o
+ .debug_info    0x0000cfd8       0xb9 obj/u2f_io.o
+ .debug_info    0x0000d091      0x79c obj/u2f_transport.o
+ .debug_info    0x0000d82d     0x1843 obj/uint256.o
+ .debug_info    0x0000f070      0x96e obj/usbd_conf.o
+ .debug_info    0x0000f9de      0xb02 obj/usbd_core.o
+ .debug_info    0x000104e0      0xab9 obj/usbd_ctlreq.o
+ .debug_info    0x00010f99      0x685 obj/usbd_hid.o
+ .debug_info    0x0001161e      0xce1 obj/usbd_impl.o
+ .debug_info    0x000122ff      0x723 obj/usbd_ioreq.o
+ .debug_info    0x00012a22      0x2ee obj/utils.o
 
 .debug_abbrev   0x00000000     0x211c
  *(.debug_abbrev)
@@ -3311,7 +3305,7 @@ DEBUG           0xd0000000        0x8
  .debug_frame   0x00002c38       0x2c /home/boczeratul/bolos-devenv/gcc-arm-none-eabi-5_3-2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
  .debug_frame   0x00002c64       0x28 /home/boczeratul/bolos-devenv/gcc-arm-none-eabi-5_3-2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen-stub.o)
 
-.debug_str      0x00000000     0x6529
+.debug_str      0x00000000     0x64e2
  *(.debug_str)
  .debug_str     0x00000000      0x81e obj/cx_compliance_141.o
                                 0x8f7 (size before relaxing)
@@ -3319,45 +3313,45 @@ DEBUG           0xd0000000        0x8
                                 0x57e (size before relaxing)
  .debug_str     0x00000bea      0x145 obj/ethUtils.o
                                 0x581 (size before relaxing)
- .debug_str     0x00000d2f     0x11d3 obj/glyphs.o
-                               0x1258 (size before relaxing)
- .debug_str     0x00001f02     0x12c2 obj/main.o
+ .debug_str     0x00000d2f     0x118c obj/glyphs.o
+                               0x1211 (size before relaxing)
+ .debug_str     0x00001ebb     0x12c2 obj/main.o
                                0x1b5f (size before relaxing)
- .debug_str     0x000031c4      0x37a obj/os.o
+ .debug_str     0x0000317d      0x37a obj/os.o
                                 0x465 (size before relaxing)
- .debug_str     0x0000353e      0xd46 obj/os_io_seproxyhal.o
+ .debug_str     0x000034f7      0xd46 obj/os_io_seproxyhal.o
                                0x19e8 (size before relaxing)
- .debug_str     0x00004284       0xf5 obj/os_printf.o
+ .debug_str     0x0000423d       0xf5 obj/os_printf.o
                                 0x182 (size before relaxing)
- .debug_str     0x00004379       0x3d obj/pic.o
+ .debug_str     0x00004332       0x3d obj/pic.o
                                  0x97 (size before relaxing)
- .debug_str     0x000043b6       0x42 obj/pic_internal.o
+ .debug_str     0x0000436f       0x42 obj/pic_internal.o
                                  0x9c (size before relaxing)
- .debug_str     0x000043f8      0xb90 obj/syscalls.o
+ .debug_str     0x000043b1      0xb90 obj/syscalls.o
                                0x1891 (size before relaxing)
- .debug_str     0x00004f88      0x15b obj/tokens.o
+ .debug_str     0x00004f41      0x15b obj/tokens.o
                                 0x1f1 (size before relaxing)
- .debug_str     0x000050e3      0x18e obj/u2f_impl.o
+ .debug_str     0x0000509c      0x18e obj/u2f_impl.o
                                 0x639 (size before relaxing)
- .debug_str     0x00005271       0x46 obj/u2f_io.o
+ .debug_str     0x0000522a       0x46 obj/u2f_io.o
                                 0x124 (size before relaxing)
- .debug_str     0x000052b7      0x1c8 obj/u2f_transport.o
+ .debug_str     0x00005270      0x1c8 obj/u2f_transport.o
                                 0x5fa (size before relaxing)
- .debug_str     0x0000547f      0x20a obj/uint256.o
+ .debug_str     0x00005438      0x20a obj/uint256.o
                                 0x345 (size before relaxing)
- .debug_str     0x00005689      0x635 obj/usbd_conf.o
+ .debug_str     0x00005642      0x635 obj/usbd_conf.o
                                 0x781 (size before relaxing)
- .debug_str     0x00005cbe      0x212 obj/usbd_core.o
+ .debug_str     0x00005c77      0x212 obj/usbd_core.o
                                 0x847 (size before relaxing)
- .debug_str     0x00005ed0      0x161 obj/usbd_ctlreq.o
+ .debug_str     0x00005e89      0x161 obj/usbd_ctlreq.o
                                 0x7ca (size before relaxing)
- .debug_str     0x00006031       0x8b obj/usbd_hid.o
+ .debug_str     0x00005fea       0x8b obj/usbd_hid.o
                                 0x6b4 (size before relaxing)
- .debug_str     0x000060bc      0x341 obj/usbd_impl.o
+ .debug_str     0x00006075      0x341 obj/usbd_impl.o
                                 0xb28 (size before relaxing)
- .debug_str     0x000063fd       0xd3 obj/usbd_ioreq.o
+ .debug_str     0x000063b6       0xd3 obj/usbd_ioreq.o
                                 0x700 (size before relaxing)
- .debug_str     0x000064d0       0x59 obj/utils.o
+ .debug_str     0x00006489       0x59 obj/utils.o
                                 0x1a2 (size before relaxing)
 
 .debug_loc      0x00000000     0xa0cb
@@ -3537,9 +3531,6 @@ C_blue_badge_atheios_colors                       obj/glyphs.o
 C_blue_badge_callisto                             obj/glyphs.o
 C_blue_badge_callisto_bitmap                      obj/glyphs.o
 C_blue_badge_callisto_colors                      obj/glyphs.o
-C_blue_badge_dexon                                obj/glyphs.o
-C_blue_badge_dexon_bitmap                         obj/glyphs.o
-C_blue_badge_dexon_colors                         obj/glyphs.o
 C_blue_badge_ellaism                              obj/glyphs.o
 C_blue_badge_ellaism_bitmap                       obj/glyphs.o
 C_blue_badge_ellaism_colors                       obj/glyphs.o
