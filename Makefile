@@ -242,7 +242,7 @@ SDK_SOURCE_PATH  += lib_blewbxx lib_blewbxx_impl
 SDK_SOURCE_PATH  += lib_ux
 endif
 
-load: all
+load: 
 	python3 -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
 
 delete:
